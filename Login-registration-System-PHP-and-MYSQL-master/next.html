@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<a href="healthinfo.html" class="previous">&laquo; Previous</a>
+  
+</body>
+</html> <head><style>
+body {
+  background: white;
+}
+.wrapper {
+  width: 960px;
+  margin: 10% auto 0;
+}
+a {
+  text-decoration: none;
+}
+
+.single-portfolio {
+  background-size: cover !important;
+}
+
+.single-portfolio {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 4px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  overflow: hidden;
+  font-family: poppins;
+  line-height: 1.2;
+}
+
+.single-portfolio::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(90%);
+  background-color: #262626;
+  color: #fff;
+  padding: 0 8px;
+  content: attr(data-title);
+  font-size: 22px;
+  text-align: center;
+}
+
+.single-portfolio::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  padding-top: 35%;
+  font-size: 15px;
+  text-transform: uppercase;
+  content: attr(data-text);
+  transition: 0.5s;
+  margin-top: 8px;
+  transform: translateY(100%);
+}
+
+.single-portfolio:hover:after {
+  transform: translateY(0);
+  transition: 0.5s 0.1s;
+  opacity: 1;
+}
+.single-portfolio:hover:before {
+  transform: translateY(0);
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+/* ignore the code below */
+
+.link-area {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 15px;
+  border-radius: 40px;
+  background: #262626;
+}
+.link-area a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public#:~:text=Regularly%20and%20thoroughly%20clean%20your,faucets%20and%20phone%20screens." class="single-portfolio" style="background-image:url(https://cdn1.vectorstock.com/i/thumb-large/97/90/hygiene-concept-in-circle-with-thin-line-icon-vector-20629790.jpg)" data-title="What hygiene practices should I follow to reduce the risk of getting COVID-19?" data-text="Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. This eliminates germs including viruses that may be on your hands.
+Avoid touching your eyes, nose and mouth. Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth."></a>
+
+  <a href="https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/publications-and-technical-guidance/noncommunicable-diseases/food-and-nutrition-tips-during-self-quarantine#:~:text=Reduce%20foods%20such%20as%20red,which%20helps%20prevent%20overeating." class="single-portfolio" style="background-image:url(https://img.etimg.com/thumb/msid-75176755,width-640,resizemode-4,imgsize-612672/effect-of-coronavirus-on-food.jpg)" data-title="What are foods to avoid during the COVID-19 pandemic?" data-text="Reduce foods such as red and fatty meats, butter and full-fat dairy products, palm oil, coconut oil, solid shortening and lard. Avoid trans fats as much as possible. Read nutrition labels to ensure that partially hydrogenated oils are not listed in the ingredients."></a>
+
+  <a href="https://www.who.int/news/item/23-03-2020-pass-the-message-five-steps-to-kicking-out-coronavirus#:~:text=Hands%20touch%20too%20many%20surfaces,making%20you%20feel%20unwell." class="single-portfolio" style="background-image:url(https://i1.wp.com/www.osnepal.net/wp-content/uploads/2015/11/virus-entering-body.jpg)" data-title="Can COVID-19 enter into the body by the hands?" data-text="Hands touch too many surfaces and can quickly pick up viruses. Once contaminated, hands can transfer the virus to your face, from where the virus can move inside your body, making you feel unwell."></a>
+<a href="https://www.nhp.gov.in/disease/communicable-disease/novel-coronavirus-2019-ncov#:~:text=Everyday%20preventive%20actions%20to%20help,%2C%20until%20you%20recover." class="single-portfolio" style="background-image:url(https://www.design-bags.com/wp-content/uploads/2020/08/productos-proteccion-covid19.jpg)" data-title="How can I protect myself and others from getting COVID-19?" data-text="Everyday preventive actions to help prevent the spread of respiratory viruses should be followed, these include:
+
+1.Wash your hands often with soap and water for at least 20 seconds. Use an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water are not available.
+2.Avoid touching your eyes, nose, and mouth with unwashed hands."></a>
+</div>
+

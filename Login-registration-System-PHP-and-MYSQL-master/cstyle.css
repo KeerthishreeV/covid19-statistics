@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.covid-alert {
+	background: red;
+	color: #fff;
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+.covid-alert a {
+	color:#fff;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background:url('https://www.nihr.ac.uk/images/partners-and-industry/industry/COVID19/COVID-virus-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.header p{
+ font-size: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
